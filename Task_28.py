@@ -6,6 +6,7 @@ def get_numbers_sum(num_1, num_2):
     
     return get_numbers_sum(num_1 + 1, num_2 - 1)
 
+
 numbers = get_values('числа')
 num_1 = int(numbers[0])
 num_2 = int(numbers[1])
