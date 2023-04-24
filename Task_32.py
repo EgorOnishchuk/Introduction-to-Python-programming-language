@@ -5,7 +5,7 @@ def get_indices(sequence, range_first_num, range_last_num):
     length = len(sequence)
 
     for i in range(length):
-        if sequence[i] >= range_first_num and sequence[i] <= range_last_num:
+        if range_first_num <= sequence[i] <= range_last_num:
             indices.append(i)
 
     return indices
