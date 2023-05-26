@@ -3,7 +3,7 @@ import input
 def select_action():
     file = input.get_value('адрес файла')
     actions = {'вывод': print_data, 'запись': add_data, 'поиск': search_data,
-               'изменение': change_data, 'удаление': delete_data,}
+               'изменение': change_data, 'удаление': delete_data}
 
     while True:
         action = input.get_value("действие: 'вывод', 'запись', 'поиск', " \
